@@ -1,14 +1,8 @@
-#include <X11/extensions/XTest.h>
-#include <X11/extensions/Xdamage.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include "pulsar.h"
 #include "common.h"
 #include "ws_server.h"
-
-
-
-damage_region_t region;
 
 int main(int argc, char* argv[])
 {
