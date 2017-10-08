@@ -176,7 +176,7 @@ static struct lws_protocols protocols[] = {
 
 void start_ws_server(pulsar_config_t *pulsar_config)
 {
-    display = XOpenDisplay(NULL);
+    display = XOpenDisplay(":0");
     root = RootWindow(display, DefaultScreen(display));
     struct lws_context *context;
     struct lws_context_creation_info info;
