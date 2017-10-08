@@ -24,7 +24,7 @@ static int callback_protocol(struct lws *wsi,
         Window root = pc->root;
         printf("connection established\n");
         pulsar_context_init(pc);
-        start_xthread(&pc->xthread, pc);
+        //start_xthread(&pc->xthread, pc);
         usleep(20000);
         //start_encoder_thread(&pc->ethread, pc);
         pulsar_context_region_add(pc, 0, 0, 1440, 900);
