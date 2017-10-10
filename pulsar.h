@@ -45,6 +45,7 @@ typedef struct {
     pulsar_region_t region; // rect region damaged
     Display *display;
     Window root;
+    time_t lasttime;
     pthread_t xthread; // X11 thread
     pthread_t ethread; // encoder thread
     pthread_mutex_t mutex;

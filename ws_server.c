@@ -24,7 +24,7 @@ static int callback_protocol(struct lws *wsi,
         Window root = pc->root;
         printf("connection established\n");
         pulsar_context_init(pc);
-        //start_xthread(&pc->xthread, pc);
+        start_xthread(&pc->xthread, pc);
         usleep(20000);
         //start_encoder_thread(&pc->ethread, pc);
         pulsar_context_region_add(pc, 0, 0, 1440, 900);
@@ -87,26 +87,15 @@ static int callback_protocol(struct lws *wsi,
 
         Window root = pc->root;
         pulsar_region_t *region = &pc->region;
-        //printf("write\n");
-        struct encoded_entry *entry = NULL;
-        //pthread_mutex_lock(&pc->mutex);
-        /*if (!STAILQ_EMPTY(&pc->pending_list)) {
-            STAILQ_FOREACH(entry, &pc->pending_list, pointers) {
-                unsigned char *buf = calloc(LWS_PRE + entry->size + 8, sizeof(char));
 
-                memcpy(buf + LWS_PRE, &entry->x, 4);
-                memcpy(buf + LWS_PRE + 4, &entry->y, 4);
-                memcpy(buf + LWS_PRE + 8, entry->data, entry->size);
-                lws_write(wsi, &buf[LWS_PRE], entry->size + 8, LWS_WRITE_BINARY);
-                //pthread_mutex_lock(&pc->mutex);
-                STAILQ_REMOVE(&pc->pending_list, entry, encoded_entry, pointers);
-                //pthread_mutex_unlock(&pc->mutex);
-                free(buf);
-                //free(entry->data);
-                //free(entry);
-            }
-            }*/
-        //pthread_mutex_unlock(&pc->mutex);
+        /**
+         * send ping msg
+         **/
+        if (difftime(time(NULL), pc->lasttime) > 10) {
+            uint8_t *pingbuf = calloc(LWS_PRE + 1, sizeof(char));
+            lws_write(wsi, &pingbuf[LWS_PRE], 1, LWS_WRITE_TEXT);
+            pc->lasttime = time(NULL);
+        }
 
         int output_size, i;
         uint8_t *output;
@@ -176,19 +165,22 @@ static struct lws_protocols protocols[] = {
 
 void start_ws_server(pulsar_config_t *pulsar_config)
 {
-    display = XOpenDisplay(":0");
+    display = XOpenDisplay(NULL);
     root = RootWindow(display, DefaultScreen(display));
     struct lws_context *context;
     struct lws_context_creation_info info;
     memset(&info, 0, sizeof(info));
     info.port = pulsar_config->port;
     info.protocols = protocols;
+    info.ka_time = 30;
+    info.ka_probes = 1;
+    info.ka_interval = 1;
 
     context = lws_create_context(&info);
 
     while (1) {
         //lws_callback_on_writable_all_protocol(context, protocols);
         lws_service(context, 20);
-        //usleep(40000);
+        usleep(10000);
     }
 }

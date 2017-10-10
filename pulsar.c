@@ -8,8 +8,9 @@ void pulsar_context_init(pulsar_context_t *pulsar_context)
     pulsar_context->region.width = 0;
     pulsar_context->region.height = 0;
     pulsar_context->region.init = 1;
-    pulsar_context->display = XOpenDisplay(":0");
+    pulsar_context->display = XOpenDisplay(NULL);
     pulsar_context->root = RootWindow(pulsar_context->display, DefaultScreen(pulsar_context->display));
+    pulsar_context->lasttime = time(NULL);
     STAILQ_INIT(&pulsar_context->pending_list);
     pthread_mutex_init(&pulsar_context->mutex, NULL);
 }
