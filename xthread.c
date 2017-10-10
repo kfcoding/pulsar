@@ -10,7 +10,6 @@
 
 void xthread(void *data)
 {
-    //XInitThreads();
     printf("xthread\n");
     pulsar_context_t *context = (pulsar_context_t*)data;
     Display *display = XOpenDisplay(NULL);

@@ -26,27 +26,6 @@ void png_write_cb(png_structp png_ptr, png_bytep data, png_size_t length)
     ed->data = realloc(ed->data, ed->size + length);
     memcpy(&ed->data[ed->size], data, length);
     ed->size += length;
-    //struct encode_context *ec = png_get_io_ptr(png_ptr);
-    //struct encoded_entry *ee = malloc(sizeof(struct encoded_entry));
-    //ee->x = ec->x;
-    //ee->y = ec->y;
-    //ee->size = length;
-    //ee->data = data;printf("a\n");
-    //pthread_mutex_lock(&ec->pc->mutex);printf("x\n");
-    //STAILQ_INSERT_HEAD(&ec->pc->pending_list, ee, pointers);
-    //usleep(2000000);
-    //pthread_mutex_unlock(&ec->pc->mutex);printf("b\n");
-    //if (ec->ximg)
-    //XDestroyImage(ec->ximg);
-    //free(ec);
-    
-    /*struct Region *reg = (struct Region*)png_get_io_ptr(png_ptr);
-    unsigned char *buf = malloc(LWS_PRE + length + 8);
-    memset(buf, 0, LWS_PRE + length + 8);
-    memcpy(buf + LWS_PRE, &reg->x, 4);
-    memcpy(buf + LWS_PRE + 4, &reg->y, 4);
-    memcpy(buf + LWS_PRE + 8, data, length);*/
-    
 }
 
 /**
@@ -74,7 +53,6 @@ void encodePNG(size_t w, size_t h, uint8_t *data, void *out)
 
 void encoder_thread(void *data)
 {
-    //XInitThreads();
     pulsar_context_t *context = data;
     Display *display = XOpenDisplay(NULL);
     Window root = RootWindow(display, DefaultScreen(display));
