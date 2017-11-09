@@ -99,20 +99,23 @@ static int callback_protocol(struct lws *wsi,
 
         int output_size, i;
         uint8_t *output;
+        int x, y, width, height;
         if (!region->init) {
-            if (region->width == 0 || region->height == 0) {
+            width = region->width - (region->width % 4);
+            height = region->height - (region->height % 4);
+            
+            if (width == 0 || height == 0) {
                 break;
             }
-            int x = region->x;
-            int y = region->y;
-            int width = region->width;
-            int height = region->height;
-            region->x = 1440;
-            region->y = 900;
+            x = region->x;
+            y = region->y;
+            
+            region->x = 0;
+            region->y = 0;
             region->width = 0;
             region->height = 0;
             region->init = 1;
-            printf("%d %d %d %d\n", x, y, width, height);
+            //printf("%d %d %d %d\n", x, y, width, height);
             XImage *ximg;
             ximg = XGetImage(display, root, x, y, width, height, AllPlanes, ZPixmap);
 
@@ -156,7 +159,7 @@ static struct lws_protocols protocols[] = {
         "cloudware-interacting-protocol",
         callback_protocol,
         sizeof(pulsar_context_t),
-        800000
+        8000000
     },
     {
         NULL, NULL, 0
