@@ -101,8 +101,8 @@ static int callback_protocol(struct lws *wsi,
         uint8_t *output;
         int x, y, width, height;
         if (!region->init) {
-            width = region->width - (region->width % 4);
-            height = region->height - (region->height % 4);
+            width = region->width - (region->width % 2);
+            height = region->height - (region->height % 2);
             
             if (width == 0 || height == 0) {
                 break;
@@ -144,8 +144,8 @@ static int callback_protocol(struct lws *wsi,
             XDestroyImage(ximg);
             
         }
+        usleep(10000);
         lws_callback_on_writable(wsi);
-        usleep(20000);
         break;
     }
     default:
@@ -184,6 +184,6 @@ void start_ws_server(pulsar_config_t *pulsar_config)
     while (1) {
         //lws_callback_on_writable_all_protocol(context, protocols);
         lws_service(context, 20);
-        usleep(10000);
+        //usleep(10000);
     }
 }
