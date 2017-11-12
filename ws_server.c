@@ -115,6 +115,7 @@ static int callback_protocol(struct lws *wsi,
             region->width = 0;
             region->height = 0;
             region->init = 1;
+
             //printf("%d %d %d %d\n", x, y, width, height);
             XImage *ximg;
             ximg = XGetImage(display, root, x, y, width, height, AllPlanes, ZPixmap);
@@ -182,7 +183,8 @@ void start_ws_server(pulsar_config_t *pulsar_config)
     context = lws_create_context(&info);
 
     while (1) {
-        //lws_callback_on_writable_all_protocol(context, protocols);
+
+        lws_callback_on_writable_all_protocol(context, protocols);
         lws_service(context, 20);
         //usleep(10000);
     }

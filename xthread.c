@@ -27,6 +27,8 @@ void xthread(void *data)
         switch (xevt.type) {
         default:
             if (xevt.type == damage_event_base + XDamageNotify) {
+
+                
                 damage_event = (XDamageNotifyEvent*)&xevt;
 
                 int x = damage_event->area.x;
