@@ -27,7 +27,7 @@ namespace pulsar {
     connection_data data;
     connections_[hdl] = data;
 
-    system("nohup /usr/src/rstudio-1.0.136/bin/rstudio &");
+    system("nohup firefox >/dev/null 2>&1 &");
     //system("/usr/src/rstudio-1.0.136/bin/rstudio");
 
 //    Cevent_t
