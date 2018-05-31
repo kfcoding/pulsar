@@ -27,9 +27,10 @@ namespace pulsar {
     connection_data data;
     connections_[hdl] = data;
 
-    system("/usr/src/rstudio-1.0.136/bin/rstudio");
+    system("nohup /usr/src/rstudio-1.0.136/bin/rstudio &");
+    //system("/usr/src/rstudio-1.0.136/bin/rstudio");
 
-//    Cevent_t c;
+//    Cevent_t
 //    c.type = kRecover;
 //    c.recover.wid = 0;
 //    OnClientEvent(&c);

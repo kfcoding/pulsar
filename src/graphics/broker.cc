@@ -51,6 +51,7 @@ namespace pulsar {
         Xevent_t xevt;
         switch (evt->response_type & ~0x80) {
           case XCB_CREATE_NOTIFY: {
+            std::cout << "XCB_CREATE_NOTIFY" << std::endl;
             xcb_create_notify_event_t *notify = (xcb_create_notify_event_t *) evt;
             xevt.type = kWindowCreate;
             xevt.window_create.wid = notify->window;
