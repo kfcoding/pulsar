@@ -17,6 +17,7 @@ namespace pulsar {
     }
 
     void Broker::Run() {
+      std::cout << "Run()" << std::endl;
       if (backend_type_ == kXserver) {
         RunX();
       } else {
@@ -31,6 +32,7 @@ namespace pulsar {
         std::cout << "faild to connect xserver" << std::endl;
         return;
       }
+      std::cout << "success to connect xserver" << std::endl;
       xconn_ = xconn;
 
       xcb_screen_t *screen = xcb_setup_roots_iterator(

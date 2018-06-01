@@ -5,6 +5,8 @@
 #include "graphics/broker.h"
 
 int main(int argc, char *argv[]) {
+  std::cout << "start pulsar" << std::endl;
+
   int port = 9800;
   
   pulsar::graphics::Broker broker(pulsar::graphics::kXserver);
@@ -14,8 +16,12 @@ int main(int argc, char *argv[]) {
 
   server.OnClientEvent = boost::bind(&pulsar::graphics::Broker::Input, boost::ref(broker), _1);
 
+  std::cout << "start socket" << std::endl;
+
   // Start websocket server as thread
   boost::thread trd(boost::bind(&pulsar::Server::Run, boost::ref(server), port));
+
+  std::cout << "start broker" << std::endl;
 
   // Broker blocks main thread
   broker.Run();
