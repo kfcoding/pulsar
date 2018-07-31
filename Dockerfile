@@ -1,4 +1,4 @@
-FROM ubuntu14.04
+FROM daocloud.io/shaoling/kfcoding-cloudware-xfce4:latest
 MAINTAINER guodong <gd@kfcoding.com>
 RUN apt-get update
 RUN apt-get install -y libwebp-dev libx11-dev libxdamage-dev libxtst-dev libpng12-0 libxcb-damage0-dev libxcb-xtest0-dev libxcb-composite0-dev
