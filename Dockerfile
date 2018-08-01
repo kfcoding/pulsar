@@ -12,5 +12,7 @@ COPY libs/libwebsockets.so.11 /usr/lib/
 COPY libs/pulsar.desktop /root/.config/autostart/
 
 ENV PULSAR_PORT 9800
+ENV PULSAR_CMD /usr/src/rstudio-1.0.136/bin/rstudio
+
 EXPOSE 9800
 CMD pulsar

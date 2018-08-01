@@ -1,4 +1,5 @@
 #include "server.h"
+#include <stdlib.h>
 #include <websocketpp/server.hpp>
 #include <websocketpp/config/asio_no_tls.hpp>
 
@@ -26,13 +27,8 @@ namespace pulsar {
   void Server::OnClientOpen(connection_hdl hdl) {
     connection_data data;
     connections_[hdl] = data;
-
-    system("nohup /usr/src/rstudio-1.0.136/bin/rstudio >/dev/null 2>&1 &");
-    //system("/usr/src/rstudio-1.0.136/bin/rstudio");
-    //    Cevent_t
-    //    c.type = kRecover;
-    //    c.recover.wid = 0;
-    //    OnClientEvent(&c);
+    std::string cmd("nohup " + std::string(getenv("PULSAR_CMD")) + " >/dev/null 2>&1 &");
+    system(cmd.c_str());
   }
 
   void Server::OnClientClose(connection_hdl hdl) {

@@ -1,14 +1,20 @@
 #include <iostream>
+#include <stdlib.h>
 #include <boost/bind.hpp>
 #include <boost/thread.hpp>
 #include "server.h"
 #include "graphics/broker.h"
 
 int main(int argc, char *argv[]) {
-  std::cout << "start pulsar" << std::endl;
+
+  char *pulsar_cmd = getenv("PULSAR_CMD");
+  if (pulsar_cmd == NULL) {
+    std::cout << "no pulsar cmd specified" << std::endl;
+    return 0;
+  }
 
   int port = 9800;
-  
+
   pulsar::graphics::Broker broker(pulsar::graphics::kXserver);
   pulsar::Server server;
 
@@ -25,6 +31,6 @@ int main(int argc, char *argv[]) {
 
   // Broker blocks main thread
   broker.Run();
-  
+
   return 0;
 }
