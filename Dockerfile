@@ -1,4 +1,4 @@
-FROM daocloud.io/shaoling/kfcoding-cloudware-xfce4:latest
+FROM cloudwarelabs/xfce4-min:latest
 MAINTAINER guodong <gd@kfcoding.com>
 RUN apt-get update
 RUN apt-get install -y libwebp-dev libx11-dev libxdamage-dev libxtst-dev libpng12-0 libxcb-damage0-dev libxcb-xtest0-dev libxcb-composite0-dev
@@ -11,7 +11,6 @@ COPY libs/libstdc++.so.6.0.21 /usr/lib/x86_64-linux-gnu/
 COPY libs/libwebsockets.so.11 /usr/lib/
 COPY libs/pulsar.desktop /root/.config/autostart/
 
-ENV DISPLAY :0
 ENV PULSAR_PORT 9800
 EXPOSE 9800
 CMD pulsar
