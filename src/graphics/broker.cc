@@ -49,11 +49,9 @@ namespace pulsar {
 
       xcb_generic_event_t *evt;
       while ((evt = xcb_wait_for_event(xconn))) {
-        printf("%d\n", evt->response_type);
         Xevent_t xevt;
         switch (evt->response_type & ~0x80) {
           case XCB_CREATE_NOTIFY: {
-            std::cout << "XCB_CREATE_NOTIFY" << std::endl;
             xcb_create_notify_event_t *notify = (xcb_create_notify_event_t *) evt;
             xevt.type = kWindowCreate;
             xevt.window_create.wid = notify->window;
@@ -132,7 +130,6 @@ namespace pulsar {
       //TODO: Windows implement
     }
 
-
     void Broker::GetDamageImage(xcb_connection_t *xconn_, xcb_window_t wid, int16_t x, int16_t y, uint16_t width,
                                 uint16_t height, encoded_data_t *ed) {
       xcb_get_image_reply_t *reply = xcb_get_image_reply(xconn_,
@@ -140,12 +137,8 @@ namespace pulsar {
                                                                        y, width, height, ~0), NULL);
 
       if (reply == NULL) {
-        std::cout << "get img error" << std::endl;
         return;
       }
-
-      std::cout << "encoding" << std::endl;
-
 
       uint8_t *data = xcb_get_image_data(reply);
 
@@ -160,9 +153,7 @@ namespace pulsar {
       free(reply);
     }
 
-
     void Broker::Input(Cevent_t *cevt) {
-      //  printf("%d %d %d\n", cevt->type, cevt->x, cevt->y);
       xcb_connection_t *xconn = xconn_;
       switch (cevt->type) {
         case kMouseMove: {
@@ -186,6 +177,7 @@ namespace pulsar {
           break;
         }
         case kRecover: {
+          std::cout << "this ---> " << std::endl;
           xcb_query_tree_reply_t *tree = xcb_query_tree_reply(xconn, xcb_query_tree(xconn, root_), NULL);
           xcb_window_t *children = xcb_query_tree_children(tree);
           Xevent_t xevt;

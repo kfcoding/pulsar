@@ -29,21 +29,19 @@ namespace pulsar {
 
     system("nohup /usr/src/rstudio-1.0.136/bin/rstudio >/dev/null 2>&1 &");
     //system("/usr/src/rstudio-1.0.136/bin/rstudio");
-
-//    Cevent_t
-//    c.type = kRecover;
-//    c.recover.wid = 0;
-//    OnClientEvent(&c);
-
-    std::cout << "OnClientOpen" << std::endl;
+    //    Cevent_t
+    //    c.type = kRecover;
+    //    c.recover.wid = 0;
+    //    OnClientEvent(&c);
   }
 
   void Server::OnClientClose(connection_hdl hdl) {
+    connections_.erase(hdl);
     std::cout << "OnClientClose" << std::endl;
   }
 
   void Server::OnClientMessage(connection_hdl hdl, server::message_ptr msg) {
-    //  std::cout << msg->get_payload() << std::endl;
+
     const char *evt = msg->get_payload().c_str();
     Cevent_t cevt;
     switch (evt[0]) {
@@ -77,25 +75,27 @@ namespace pulsar {
         return;
     }
     OnClientEvent(&cevt);
-
   }
 
   void Server::Broadcast(Xevent_t *xevt) {
-    con_list::iterator it;
-    it = connections_.begin();
-    while (it != connections_.end()) {
-      if (xevt->type == kWindowImage) {
-        int size = sizeof(Xevent_t) + xevt->window_image.size;
-        uint8_t *data = (uint8_t *) malloc(size);
-        memcpy(data, xevt, sizeof(Xevent_t));
-        memcpy(&data[sizeof(Xevent_t)], xevt->window_image.data, xevt->window_image.size);
-        wsserver_.send(it->first, data, size, websocketpp::frame::opcode::binary);
-        free(data);
-      } else {
-        wsserver_.send(it->first, xevt, sizeof(Xevent_t), websocketpp::frame::opcode::binary);
+    try {
+      con_list::iterator it;
+      it = connections_.begin();
+      while (it != connections_.end()) {
+        if (xevt->type == kWindowImage) {
+          int size = sizeof(Xevent_t) + xevt->window_image.size;
+          uint8_t *data = (uint8_t *) malloc(size);
+          memcpy(data, xevt, sizeof(Xevent_t));
+          memcpy(&data[sizeof(Xevent_t)], xevt->window_image.data, xevt->window_image.size);
+          wsserver_.send(it->first, data, size, websocketpp::frame::opcode::binary);
+          free(data);
+        } else {
+          wsserver_.send(it->first, xevt, sizeof(Xevent_t), websocketpp::frame::opcode::binary);
+        }
+        it++;
       }
-      it++;
+    } catch (websocketpp::exception e) {
+      std::cout << "exception " << e.what() << std::endl;
     }
   }
-
 }
