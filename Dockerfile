@@ -8,7 +8,6 @@ COPY build/pulsar /usr/local/bin/pulsar
 COPY libwebsockets.so.11 /usr/lib/
 COPY pulsar.desktop /root/.config/autostart/
 
-ENV DISPLAY :0
 ENV PULSAR_PORT 5678
 
 EXPOSE 5678
