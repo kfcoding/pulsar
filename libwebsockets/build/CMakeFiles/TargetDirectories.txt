@@ -1,0 +1,15 @@
+/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/package_source.dir
+/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/package.dir
+/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/test-server-extpoll.dir
+/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/test-server.dir
+/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/edit_cache.dir
+/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/websockets_shared.dir
+/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/websockets.dir
+/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/install.dir
+/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/test-lejp.dir
+/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/rebuild_cache.dir
+/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/test-client.dir
+/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/list_install_components.dir
+/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/install/strip.dir
+/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/dist.dir
+/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/install/local.dir

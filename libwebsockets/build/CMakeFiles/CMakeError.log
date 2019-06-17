@@ -1,0 +1,342 @@
+Determining if the function _snprintf exists failed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_acef9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_acef9.dir/build.make CMakeFiles/cmTC_acef9.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_acef9.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -DCHECK_FUNCTION_EXISTS=_snprintf   -o CMakeFiles/cmTC_acef9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_acef9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acef9.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_snprintf    CMakeFiles/cmTC_acef9.dir/CheckFunctionExists.c.o  -o cmTC_acef9 -rdynamic 
+CMakeFiles/cmTC_acef9.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_snprintf'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_acef9.dir/build.make:97: recipe for target 'cmTC_acef9' failed
+make[1]: *** [cmTC_acef9] Error 1
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_acef9/fast' failed
+make: *** [cmTC_acef9/fast] Error 2
+
+
+Determining if the function _vsnprintf exists failed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_75a93/fast"
+/usr/bin/make -f CMakeFiles/cmTC_75a93.dir/build.make CMakeFiles/cmTC_75a93.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75a93.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -DCHECK_FUNCTION_EXISTS=_vsnprintf   -o CMakeFiles/cmTC_75a93.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_75a93
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75a93.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_vsnprintf    CMakeFiles/cmTC_75a93.dir/CheckFunctionExists.c.o  -o cmTC_75a93 -rdynamic 
+CMakeFiles/cmTC_75a93.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_vsnprintf'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_75a93.dir/build.make:97: recipe for target 'cmTC_75a93' failed
+make[1]: *** [cmTC_75a93] Error 1
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_75a93/fast' failed
+make: *** [cmTC_75a93/fast] Error 2
+
+
+Determining if the function _atoi64 exists failed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_30282/fast"
+/usr/bin/make -f CMakeFiles/cmTC_30282.dir/build.make CMakeFiles/cmTC_30282.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30282.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -DCHECK_FUNCTION_EXISTS=_atoi64   -o CMakeFiles/cmTC_30282.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_30282
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30282.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_atoi64    CMakeFiles/cmTC_30282.dir/CheckFunctionExists.c.o  -o cmTC_30282 -rdynamic 
+CMakeFiles/cmTC_30282.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_atoi64'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_30282.dir/build.make:97: recipe for target 'cmTC_30282' failed
+make[1]: *** [cmTC_30282] Error 1
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_30282/fast' failed
+make: *** [cmTC_30282/fast] Error 2
+
+
+Determining if the function _stat32i64 exists failed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cba25/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cba25.dir/build.make CMakeFiles/cmTC_cba25.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cba25.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -DCHECK_FUNCTION_EXISTS=_stat32i64   -o CMakeFiles/cmTC_cba25.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cba25
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cba25.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_stat32i64    CMakeFiles/cmTC_cba25.dir/CheckFunctionExists.c.o  -o cmTC_cba25 -rdynamic 
+CMakeFiles/cmTC_cba25.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_stat32i64'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cba25.dir/build.make:97: recipe for target 'cmTC_cba25' failed
+make[1]: *** [cmTC_cba25] Error 1
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cba25/fast' failed
+make: *** [cmTC_cba25/fast] Error 2
+
+
+Determining if the include file in6addr.h exists failed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_08231/fast"
+/usr/bin/make -f CMakeFiles/cmTC_08231.dir/build.make CMakeFiles/cmTC_08231.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08231.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline   -o CMakeFiles/cmTC_08231.dir/CheckIncludeFile.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: fatal error: in6addr.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_08231.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_08231.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_08231.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_08231/fast' failed
+make: *** [cmTC_08231/fast] Error 2
+
+
+Determining if the include file sys/sockio.h exists failed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e257/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e257.dir/build.make CMakeFiles/cmTC_5e257.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e257.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline   -o CMakeFiles/cmTC_5e257.dir/CheckIncludeFile.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:24: fatal error: sys/sockio.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_5e257.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5e257.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_5e257.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5e257/fast' failed
+make: *** [cmTC_5e257/fast] Error 2
+
+
+Determining if the include file vfork.h exists failed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c5be7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c5be7.dir/build.make CMakeFiles/cmTC_c5be7.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5be7.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline   -o CMakeFiles/cmTC_c5be7.dir/CheckIncludeFile.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:19: fatal error: vfork.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_c5be7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c5be7.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_c5be7.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c5be7/fast' failed
+make: *** [cmTC_c5be7/fast] Error 2
+
+
+Determining if the include file sys/capability.h exists failed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bff35/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bff35.dir/build.make CMakeFiles/cmTC_bff35.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bff35.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline   -o CMakeFiles/cmTC_bff35.dir/CheckIncludeFile.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: sys/capability.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_bff35.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_bff35.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_bff35.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bff35/fast' failed
+make: *** [cmTC_bff35/fast] Error 2
+
+
+Determining if the function cap_set_flag exists in the cap failed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a7954/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7954.dir/build.make CMakeFiles/cmTC_a7954.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7954.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -DCHECK_FUNCTION_EXISTS=cap_set_flag   -o CMakeFiles/cmTC_a7954.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a7954
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7954.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cap_set_flag    CMakeFiles/cmTC_a7954.dir/CheckFunctionExists.c.o  -o cmTC_a7954 -rdynamic -lcap 
+/usr/bin/ld: cannot find -lcap
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a7954.dir/build.make:97: recipe for target 'cmTC_a7954' failed
+make[1]: *** [cmTC_a7954] Error 1
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a7954/fast' failed
+make: *** [cmTC_a7954/fast] Error 2
+
+
+Determining if the function RSA_set0_key exists failed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dee7b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dee7b.dir/build.make CMakeFiles/cmTC_dee7b.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dee7b.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=RSA_set0_key -pthread   -o CMakeFiles/cmTC_dee7b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dee7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dee7b.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=RSA_set0_key -pthread    CMakeFiles/cmTC_dee7b.dir/CheckFunctionExists.c.o  -o cmTC_dee7b -rdynamic /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lm 
+CMakeFiles/cmTC_dee7b.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `RSA_set0_key'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_dee7b.dir/build.make:99: recipe for target 'cmTC_dee7b' failed
+make[1]: *** [cmTC_dee7b] Error 1
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dee7b/fast' failed
+make: *** [cmTC_dee7b/fast] Error 2
+
+
+Determining if the function X509_get_key_usage exists failed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_48a17/fast"
+/usr/bin/make -f CMakeFiles/cmTC_48a17.dir/build.make CMakeFiles/cmTC_48a17.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48a17.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=X509_get_key_usage -pthread   -o CMakeFiles/cmTC_48a17.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_48a17
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48a17.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=X509_get_key_usage -pthread    CMakeFiles/cmTC_48a17.dir/CheckFunctionExists.c.o  -o cmTC_48a17 -rdynamic /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lm 
+CMakeFiles/cmTC_48a17.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `X509_get_key_usage'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_48a17.dir/build.make:99: recipe for target 'cmTC_48a17' failed
+make[1]: *** [cmTC_48a17] Error 1
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_48a17/fast' failed
+make: *** [cmTC_48a17/fast] Error 2
+
+
+Determining if the function SSL_CTX_set_ciphersuites exists failed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_875a1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_875a1.dir/build.make CMakeFiles/cmTC_875a1.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_875a1.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=SSL_CTX_set_ciphersuites -pthread   -o CMakeFiles/cmTC_875a1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_875a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_875a1.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=SSL_CTX_set_ciphersuites -pthread    CMakeFiles/cmTC_875a1.dir/CheckFunctionExists.c.o  -o cmTC_875a1 -rdynamic /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lm 
+CMakeFiles/cmTC_875a1.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `SSL_CTX_set_ciphersuites'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_875a1.dir/build.make:99: recipe for target 'cmTC_875a1' failed
+make[1]: *** [cmTC_875a1] Error 1
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_875a1/fast' failed
+make: *** [cmTC_875a1/fast] Error 2
+
+
+Performing C SOURCE FILE Test LWS_HAVE_EVP_MD_CTX_free failed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_61451/fast"
+/usr/bin/make -f CMakeFiles/cmTC_61451.dir/build.make CMakeFiles/cmTC_61451.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61451.dir/src.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DLWS_HAVE_EVP_MD_CTX_free -pthread   -o CMakeFiles/cmTC_61451.dir/src.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/src.c
+/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/src.c:2:45: error: implicit declaration of function ‘EVP_MD_CTX_free’ [-Werror=implicit-function-declaration]
+ int main(void) { EVP_MD_CTX *md_ctx = NULL; EVP_MD_CTX_free(md_ctx); return 0; }
+                                             ^
+cc1: all warnings being treated as errors
+CMakeFiles/cmTC_61451.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_61451.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_61451.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_61451/fast' failed
+make: *** [cmTC_61451/fast] Error 2
+
+Source file was:
+#include <openssl/ssl.h>
+int main(void) { EVP_MD_CTX *md_ctx = NULL; EVP_MD_CTX_free(md_ctx); return 0; }
+
+Determining if the function ECDSA_SIG_set0 exists failed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8ccd3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8ccd3.dir/build.make CMakeFiles/cmTC_8ccd3.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ccd3.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=ECDSA_SIG_set0 -pthread   -o CMakeFiles/cmTC_8ccd3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8ccd3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ccd3.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=ECDSA_SIG_set0 -pthread    CMakeFiles/cmTC_8ccd3.dir/CheckFunctionExists.c.o  -o cmTC_8ccd3 -rdynamic /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lm -ldl 
+CMakeFiles/cmTC_8ccd3.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `ECDSA_SIG_set0'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8ccd3.dir/build.make:99: recipe for target 'cmTC_8ccd3' failed
+make[1]: *** [cmTC_8ccd3] Error 1
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8ccd3/fast' failed
+make: *** [cmTC_8ccd3/fast] Error 2
+
+
+Determining if the function BN_bn2binpad exists failed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1393f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1393f.dir/build.make CMakeFiles/cmTC_1393f.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1393f.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=BN_bn2binpad -pthread   -o CMakeFiles/cmTC_1393f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1393f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1393f.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=BN_bn2binpad -pthread    CMakeFiles/cmTC_1393f.dir/CheckFunctionExists.c.o  -o cmTC_1393f -rdynamic /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lm -ldl 
+CMakeFiles/cmTC_1393f.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `BN_bn2binpad'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1393f.dir/build.make:99: recipe for target 'cmTC_1393f' failed
+make[1]: *** [cmTC_1393f] Error 1
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1393f/fast' failed
+make: *** [cmTC_1393f/fast] Error 2
+
+
+Determining if the function EC_POINT_get_affine_coordinates exists failed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bb646/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bb646.dir/build.make CMakeFiles/cmTC_bb646.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb646.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=EC_POINT_get_affine_coordinates -pthread   -o CMakeFiles/cmTC_bb646.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bb646
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb646.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=EC_POINT_get_affine_coordinates -pthread    CMakeFiles/cmTC_bb646.dir/CheckFunctionExists.c.o  -o cmTC_bb646 -rdynamic /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lm -ldl 
+CMakeFiles/cmTC_bb646.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `EC_POINT_get_affine_coordinates'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_bb646.dir/build.make:99: recipe for target 'cmTC_bb646' failed
+make[1]: *** [cmTC_bb646] Error 1
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bb646/fast' failed
+make: *** [cmTC_bb646/fast] Error 2
+
+
+Determining if the function TLS_client_method exists failed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc67b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc67b.dir/build.make CMakeFiles/cmTC_dc67b.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc67b.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=TLS_client_method -pthread   -o CMakeFiles/cmTC_dc67b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dc67b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc67b.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=TLS_client_method -pthread    CMakeFiles/cmTC_dc67b.dir/CheckFunctionExists.c.o  -o cmTC_dc67b -rdynamic /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lm -ldl 
+CMakeFiles/cmTC_dc67b.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `TLS_client_method'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_dc67b.dir/build.make:99: recipe for target 'cmTC_dc67b' failed
+make[1]: *** [cmTC_dc67b] Error 1
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dc67b/fast' failed
+make: *** [cmTC_dc67b/fast] Error 2
+
+

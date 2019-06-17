@@ -1,0 +1,1005 @@
+The system is: Linux - 4.15.0-36-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2f316/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2f316.dir/build.make CMakeFiles/cmTC_2f316.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2f316.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_2f316.dir/testCCompiler.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_2f316
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f316.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_2f316.dir/testCCompiler.c.o  -o cmTC_2f316 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8929e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8929e.dir/build.make CMakeFiles/cmTC_8929e.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8929e.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_8929e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_8929e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8929e.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_8929e.dir/CMakeCCompilerABI.c.o  -o cmTC_8929e -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.10' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8929e' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5kKtR6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_8929e /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_8929e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8929e/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8929e.dir/build.make CMakeFiles/cmTC_8929e.dir/build]
+  ignore line: [make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_8929e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_8929e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_8929e]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8929e.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_8929e.dir/CMakeCCompilerABI.c.o  -o cmTC_8929e -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.10' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8929e' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5kKtR6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_8929e /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_8929e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc5kKtR6.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8929e] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_8929e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_da0a0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_da0a0.dir/build.make CMakeFiles/cmTC_da0a0.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da0a0.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_da0a0.dir/feature_tests.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_da0a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da0a0.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_da0a0.dir/feature_tests.c.o  -o cmTC_da0a0 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22c39/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22c39.dir/build.make CMakeFiles/cmTC_22c39.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22c39.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_22c39.dir/feature_tests.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_22c39
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22c39.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_22c39.dir/feature_tests.c.o  -o cmTC_22c39 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_02b02/fast"
+/usr/bin/make -f CMakeFiles/cmTC_02b02.dir/build.make CMakeFiles/cmTC_02b02.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02b02.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_02b02.dir/feature_tests.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_02b02
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02b02.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_02b02.dir/feature_tests.c.o  -o cmTC_02b02 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Performing C SOURCE FILE Test LWS_HAVE_inline succeeded with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e413c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e413c.dir/build.make CMakeFiles/cmTC_e413c.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e413c.dir/src.c.o
+/usr/bin/cc  -DKEYWORD=inline  -DLWS_HAVE_inline   -o CMakeFiles/cmTC_e413c.dir/src.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e413c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e413c.dir/link.txt --verbose=1
+/usr/bin/cc   -DLWS_HAVE_inline    CMakeFiles/cmTC_e413c.dir/src.c.o  -o cmTC_e413c -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		static KEYWORD void a() {}
+		int main(int argc, char **argv) { a(); return 0; }
+		
+Performing C SOURCE FILE Test LWS_HAVE___inline__ succeeded with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5c758/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5c758.dir/build.make CMakeFiles/cmTC_5c758.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c758.dir/src.c.o
+/usr/bin/cc  -DKEYWORD=__inline__  -DLWS_HAVE___inline__   -o CMakeFiles/cmTC_5c758.dir/src.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5c758
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c758.dir/link.txt --verbose=1
+/usr/bin/cc   -DLWS_HAVE___inline__    CMakeFiles/cmTC_5c758.dir/src.c.o  -o cmTC_5c758 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		static KEYWORD void a() {}
+		int main(int argc, char **argv) { a(); return 0; }
+		
+Performing C SOURCE FILE Test LWS_HAVE___inline succeeded with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9f903/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9f903.dir/build.make CMakeFiles/cmTC_9f903.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9f903.dir/src.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -DLWS_HAVE___inline   -o CMakeFiles/cmTC_9f903.dir/src.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9f903
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f903.dir/link.txt --verbose=1
+/usr/bin/cc   -DLWS_HAVE___inline    CMakeFiles/cmTC_9f903.dir/src.c.o  -o cmTC_9f903 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		static KEYWORD void a() {}
+		int main(int argc, char **argv) { a(); return 0; }
+		
+Performing C SOURCE FILE Test LWS_HAVE_MALLOC_TRIM succeeded with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a59ec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a59ec.dir/build.make CMakeFiles/cmTC_a59ec.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a59ec.dir/src.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -DLWS_HAVE_MALLOC_TRIM   -o CMakeFiles/cmTC_a59ec.dir/src.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a59ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a59ec.dir/link.txt --verbose=1
+/usr/bin/cc   -DLWS_HAVE_MALLOC_TRIM    CMakeFiles/cmTC_a59ec.dir/src.c.o  -o cmTC_a59ec -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <malloc.h>
+	int main(int argc, char **argv) { return malloc_trim(0); }
+	
+Performing C SOURCE FILE Test LWS_HAVE_MALLOC_USABLE_SIZE succeeded with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_41ec6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_41ec6.dir/build.make CMakeFiles/cmTC_41ec6.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41ec6.dir/src.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -DLWS_HAVE_MALLOC_USABLE_SIZE   -o CMakeFiles/cmTC_41ec6.dir/src.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_41ec6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41ec6.dir/link.txt --verbose=1
+/usr/bin/cc   -DLWS_HAVE_MALLOC_USABLE_SIZE    CMakeFiles/cmTC_41ec6.dir/src.c.o  -o cmTC_41ec6 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <malloc.h>
+	int main(int argc, char **argv) { return (int)malloc_usable_size((void *)0); }
+	
+Determining if the function fork exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7d79e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d79e.dir/build.make CMakeFiles/cmTC_7d79e.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d79e.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -DCHECK_FUNCTION_EXISTS=fork   -o CMakeFiles/cmTC_7d79e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘fork’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_7d79e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d79e.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fork    CMakeFiles/cmTC_7d79e.dir/CheckFunctionExists.c.o  -o cmTC_7d79e -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getenv exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc460/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc460.dir/build.make CMakeFiles/cmTC_dc460.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc460.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -DCHECK_FUNCTION_EXISTS=getenv   -o CMakeFiles/cmTC_dc460.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dc460
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc460.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getenv    CMakeFiles/cmTC_dc460.dir/CheckFunctionExists.c.o  -o cmTC_dc460 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35776/fast"
+/usr/bin/make -f CMakeFiles/cmTC_35776.dir/build.make CMakeFiles/cmTC_35776.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35776.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -DCHECK_FUNCTION_EXISTS=malloc   -o CMakeFiles/cmTC_35776.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘malloc’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_35776
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35776.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=malloc    CMakeFiles/cmTC_35776.dir/CheckFunctionExists.c.o  -o cmTC_35776 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d68be/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d68be.dir/build.make CMakeFiles/cmTC_d68be.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d68be.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -DCHECK_FUNCTION_EXISTS=memset   -o CMakeFiles/cmTC_d68be.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memset’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_d68be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d68be.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memset    CMakeFiles/cmTC_d68be.dir/CheckFunctionExists.c.o  -o cmTC_d68be -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function realloc exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cee62/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cee62.dir/build.make CMakeFiles/cmTC_cee62.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cee62.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -DCHECK_FUNCTION_EXISTS=realloc   -o CMakeFiles/cmTC_cee62.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘realloc’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_cee62
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cee62.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=realloc    CMakeFiles/cmTC_cee62.dir/CheckFunctionExists.c.o  -o cmTC_cee62 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function socket exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bd1d7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bd1d7.dir/build.make CMakeFiles/cmTC_bd1d7.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bd1d7.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -DCHECK_FUNCTION_EXISTS=socket   -o CMakeFiles/cmTC_bd1d7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bd1d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd1d7.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=socket    CMakeFiles/cmTC_bd1d7.dir/CheckFunctionExists.c.o  -o cmTC_bd1d7 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strerror exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d8747/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d8747.dir/build.make CMakeFiles/cmTC_d8747.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8747.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -DCHECK_FUNCTION_EXISTS=strerror   -o CMakeFiles/cmTC_d8747.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d8747
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8747.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strerror    CMakeFiles/cmTC_d8747.dir/CheckFunctionExists.c.o  -o cmTC_d8747 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vfork exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a15b6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a15b6.dir/build.make CMakeFiles/cmTC_a15b6.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a15b6.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -DCHECK_FUNCTION_EXISTS=vfork   -o CMakeFiles/cmTC_a15b6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a15b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a15b6.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=vfork    CMakeFiles/cmTC_a15b6.dir/CheckFunctionExists.c.o  -o cmTC_a15b6 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function execvpe exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6dd60/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6dd60.dir/build.make CMakeFiles/cmTC_6dd60.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6dd60.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -DCHECK_FUNCTION_EXISTS=execvpe   -o CMakeFiles/cmTC_6dd60.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6dd60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6dd60.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=execvpe    CMakeFiles/cmTC_6dd60.dir/CheckFunctionExists.c.o  -o cmTC_6dd60 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getifaddrs exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_159c3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_159c3.dir/build.make CMakeFiles/cmTC_159c3.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_159c3.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -DCHECK_FUNCTION_EXISTS=getifaddrs   -o CMakeFiles/cmTC_159c3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_159c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_159c3.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getifaddrs    CMakeFiles/cmTC_159c3.dir/CheckFunctionExists.c.o  -o cmTC_159c3 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function snprintf exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8945b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8945b.dir/build.make CMakeFiles/cmTC_8945b.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8945b.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -DCHECK_FUNCTION_EXISTS=snprintf   -o CMakeFiles/cmTC_8945b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘snprintf’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_8945b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8945b.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snprintf    CMakeFiles/cmTC_8945b.dir/CheckFunctionExists.c.o  -o cmTC_8945b -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getloadavg exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f0d87/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f0d87.dir/build.make CMakeFiles/cmTC_f0d87.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0d87.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -DCHECK_FUNCTION_EXISTS=getloadavg   -o CMakeFiles/cmTC_f0d87.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f0d87
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0d87.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getloadavg    CMakeFiles/cmTC_f0d87.dir/CheckFunctionExists.c.o  -o cmTC_f0d87 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function atoll exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_14edc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_14edc.dir/build.make CMakeFiles/cmTC_14edc.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_14edc.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -DCHECK_FUNCTION_EXISTS=atoll   -o CMakeFiles/cmTC_14edc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_14edc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14edc.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=atoll    CMakeFiles/cmTC_14edc.dir/CheckFunctionExists.c.o  -o cmTC_14edc -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c9d68/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c9d68.dir/build.make CMakeFiles/cmTC_c9d68.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9d68.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline   -o CMakeFiles/cmTC_c9d68.dir/CheckIncludeFile.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c9d68
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9d68.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_c9d68.dir/CheckIncludeFile.c.o  -o cmTC_c9d68 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ab8bc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ab8bc.dir/build.make CMakeFiles/cmTC_ab8bc.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab8bc.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline   -o CMakeFiles/cmTC_ab8bc.dir/CheckIncludeFile.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ab8bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab8bc.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_ab8bc.dir/CheckIncludeFile.c.o  -o cmTC_ab8bc -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cba91/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cba91.dir/build.make CMakeFiles/cmTC_cba91.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cba91.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline   -o CMakeFiles/cmTC_cba91.dir/CheckIncludeFile.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cba91
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cba91.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_cba91.dir/CheckIncludeFile.c.o  -o cmTC_cba91 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file netinet/in.h exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_08166/fast"
+/usr/bin/make -f CMakeFiles/cmTC_08166.dir/build.make CMakeFiles/cmTC_08166.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08166.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline   -o CMakeFiles/cmTC_08166.dir/CheckIncludeFile.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_08166
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08166.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_08166.dir/CheckIncludeFile.c.o  -o cmTC_08166 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b21e3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b21e3.dir/build.make CMakeFiles/cmTC_b21e3.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b21e3.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline   -o CMakeFiles/cmTC_b21e3.dir/CheckIncludeFile.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b21e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b21e3.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_b21e3.dir/CheckIncludeFile.c.o  -o cmTC_b21e3 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea922/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ea922.dir/build.make CMakeFiles/cmTC_ea922.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea922.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline   -o CMakeFiles/cmTC_ea922.dir/CheckIncludeFile.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ea922
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea922.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_ea922.dir/CheckIncludeFile.c.o  -o cmTC_ea922 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7f100/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7f100.dir/build.make CMakeFiles/cmTC_7f100.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f100.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline   -o CMakeFiles/cmTC_7f100.dir/CheckIncludeFile.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7f100
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f100.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_7f100.dir/CheckIncludeFile.c.o  -o cmTC_7f100 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1a6c6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1a6c6.dir/build.make CMakeFiles/cmTC_1a6c6.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a6c6.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline   -o CMakeFiles/cmTC_1a6c6.dir/CheckIncludeFile.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1a6c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a6c6.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_1a6c6.dir/CheckIncludeFile.c.o  -o cmTC_1a6c6 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/prctl.h exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_27fa6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_27fa6.dir/build.make CMakeFiles/cmTC_27fa6.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27fa6.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline   -o CMakeFiles/cmTC_27fa6.dir/CheckIncludeFile.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_27fa6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27fa6.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_27fa6.dir/CheckIncludeFile.c.o  -o cmTC_27fa6 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/socket.h exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8fa5e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8fa5e.dir/build.make CMakeFiles/cmTC_8fa5e.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8fa5e.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline   -o CMakeFiles/cmTC_8fa5e.dir/CheckIncludeFile.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8fa5e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fa5e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_8fa5e.dir/CheckIncludeFile.c.o  -o cmTC_8fa5e -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_57ebd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57ebd.dir/build.make CMakeFiles/cmTC_57ebd.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_57ebd.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline   -o CMakeFiles/cmTC_57ebd.dir/CheckIncludeFile.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_57ebd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57ebd.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_57ebd.dir/CheckIncludeFile.c.o  -o cmTC_57ebd -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a420e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a420e.dir/build.make CMakeFiles/cmTC_a420e.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a420e.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline   -o CMakeFiles/cmTC_a420e.dir/CheckIncludeFile.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a420e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a420e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a420e.dir/CheckIncludeFile.c.o  -o cmTC_a420e -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa7a4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aa7a4.dir/build.make CMakeFiles/cmTC_aa7a4.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa7a4.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline   -o CMakeFiles/cmTC_aa7a4.dir/CheckIncludeFile.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_aa7a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa7a4.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_aa7a4.dir/CheckIncludeFile.c.o  -o cmTC_aa7a4 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a88e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2a88e.dir/build.make CMakeFiles/cmTC_2a88e.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a88e.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline   -o CMakeFiles/cmTC_2a88e.dir/CheckIncludeFile.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2a88e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a88e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_2a88e.dir/CheckIncludeFile.c.o  -o cmTC_2a88e -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_233e0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_233e0.dir/build.make CMakeFiles/cmTC_233e0.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_233e0.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline   -o CMakeFiles/cmTC_233e0.dir/CheckIncludeFile.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_233e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_233e0.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_233e0.dir/CheckIncludeFile.c.o  -o cmTC_233e0 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdlib.h;stdarg.h;string.h;float.h exist passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fe973/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fe973.dir/build.make CMakeFiles/cmTC_fe973.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fe973.dir/CheckIncludeFiles.c.o
+/usr/bin/cc  -DKEYWORD=__inline   -o CMakeFiles/cmTC_fe973.dir/CheckIncludeFiles.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_fe973
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe973.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_fe973.dir/CheckIncludeFiles.c.o  -o cmTC_fe973 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test LWS_HAS_INTPTR_T succeeded with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ac153/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ac153.dir/build.make CMakeFiles/cmTC_ac153.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac153.dir/src.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -DLWS_HAS_INTPTR_T   -o CMakeFiles/cmTC_ac153.dir/src.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ac153
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac153.dir/link.txt --verbose=1
+/usr/bin/cc   -DLWS_HAS_INTPTR_T    CMakeFiles/cmTC_ac153.dir/src.c.o  -o cmTC_ac153 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <stdint.h> 
+	int main(void) {
+		intptr_t test = 1;
+		return 0;
+	}
+Performing C SOURCE FILE Test LWS_HAS_PTHREAD_SETNAME_NP succeeded with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e0316/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0316.dir/build.make CMakeFiles/cmTC_e0316.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0316.dir/src.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -DLWS_HAS_PTHREAD_SETNAME_NP -pthread   -o CMakeFiles/cmTC_e0316.dir/src.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/src.c
+/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/src.c:5:3: warning: null argument where non-null required (argument 2) [-Wnonnull]
+   pthread_setname_np(th, NULL);
+   ^
+Linking C executable cmTC_e0316
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0316.dir/link.txt --verbose=1
+/usr/bin/cc   -DLWS_HAS_PTHREAD_SETNAME_NP -pthread    CMakeFiles/cmTC_e0316.dir/src.c.o  -o cmTC_e0316 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#define _GNU_SOURCE 
+	#include <pthread.h> 
+	int main(void) { 
+		pthread_t th = 0;
+		pthread_setname_np(th, NULL);
+		return 0;
+	}
+Performing C SOURCE FILE Test LWS_HAS_GETOPT_LONG succeeded with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e464/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e464.dir/build.make CMakeFiles/cmTC_5e464.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e464.dir/src.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -DLWS_HAS_GETOPT_LONG -pthread   -o CMakeFiles/cmTC_5e464.dir/src.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5e464
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e464.dir/link.txt --verbose=1
+/usr/bin/cc   -DLWS_HAS_GETOPT_LONG -pthread    CMakeFiles/cmTC_5e464.dir/src.c.o  -o cmTC_5e464 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <stddef.h>
+	#include <getopt.h> 
+	int main(void) { 
+		void *p = (void *)getopt_long;
+		return p != NULL;
+	}
+Performing C SOURCE FILE Test LWS_HAVE_VISIBILITY succeeded with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_399b5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_399b5.dir/build.make CMakeFiles/cmTC_399b5.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_399b5.dir/src.c.o
+/usr/bin/cc    -DLWS_HAVE_VISIBILITY -pthread   -fvisibility=hidden -o CMakeFiles/cmTC_399b5.dir/src.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_399b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_399b5.dir/link.txt --verbose=1
+/usr/bin/cc   -DLWS_HAVE_VISIBILITY -pthread    CMakeFiles/cmTC_399b5.dir/src.c.o  -o cmTC_399b5 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LWS_GCC_HAS_IGNORED_QUALIFIERS succeeded with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b63af/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b63af.dir/build.make CMakeFiles/cmTC_b63af.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b63af.dir/src.c.o
+/usr/bin/cc    -DLWS_GCC_HAS_IGNORED_QUALIFIERS -pthread   -Wignored-qualifiers -o CMakeFiles/cmTC_b63af.dir/src.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b63af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b63af.dir/link.txt --verbose=1
+/usr/bin/cc   -DLWS_GCC_HAS_IGNORED_QUALIFIERS -pthread    CMakeFiles/cmTC_b63af.dir/src.c.o  -o cmTC_b63af -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LWS_GCC_HAS_TYPE_LIMITS succeeded with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8e20e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8e20e.dir/build.make CMakeFiles/cmTC_8e20e.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8e20e.dir/src.c.o
+/usr/bin/cc    -DLWS_GCC_HAS_TYPE_LIMITS -pthread   -Wtype-limits -o CMakeFiles/cmTC_8e20e.dir/src.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8e20e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e20e.dir/link.txt --verbose=1
+/usr/bin/cc   -DLWS_GCC_HAS_TYPE_LIMITS -pthread    CMakeFiles/cmTC_8e20e.dir/src.c.o  -o cmTC_8e20e -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file openssl/ecdh.h exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d74e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d74e7.dir/build.make CMakeFiles/cmTC_d74e7.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d74e7.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -pthread   -o CMakeFiles/cmTC_d74e7.dir/CheckIncludeFile.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d74e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d74e7.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -pthread    CMakeFiles/cmTC_d74e7.dir/CheckIncludeFile.c.o  -o cmTC_d74e7 -rdynamic 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function SSL_CTX_set1_param exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0f85d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0f85d.dir/build.make CMakeFiles/cmTC_0f85d.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f85d.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=SSL_CTX_set1_param -pthread   -o CMakeFiles/cmTC_0f85d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0f85d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f85d.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=SSL_CTX_set1_param -pthread    CMakeFiles/cmTC_0f85d.dir/CheckFunctionExists.c.o  -o cmTC_0f85d -rdynamic /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lm 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function SSL_set_info_callback exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ef60/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1ef60.dir/build.make CMakeFiles/cmTC_1ef60.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1ef60.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=SSL_set_info_callback -pthread   -o CMakeFiles/cmTC_1ef60.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1ef60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ef60.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=SSL_set_info_callback -pthread    CMakeFiles/cmTC_1ef60.dir/CheckFunctionExists.c.o  -o cmTC_1ef60 -rdynamic /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lm 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function X509_VERIFY_PARAM_set1_host exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dd8f2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dd8f2.dir/build.make CMakeFiles/cmTC_dd8f2.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd8f2.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=X509_VERIFY_PARAM_set1_host -pthread   -o CMakeFiles/cmTC_dd8f2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dd8f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd8f2.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=X509_VERIFY_PARAM_set1_host -pthread    CMakeFiles/cmTC_dd8f2.dir/CheckFunctionExists.c.o  -o cmTC_dd8f2 -rdynamic /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lm 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function SSL_CTX_get0_certificate exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_72baa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_72baa.dir/build.make CMakeFiles/cmTC_72baa.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_72baa.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=SSL_CTX_get0_certificate -pthread   -o CMakeFiles/cmTC_72baa.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_72baa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72baa.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=SSL_CTX_get0_certificate -pthread    CMakeFiles/cmTC_72baa.dir/CheckFunctionExists.c.o  -o cmTC_72baa -rdynamic /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lm 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function SSL_get0_alpn_selected exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_603eb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_603eb.dir/build.make CMakeFiles/cmTC_603eb.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_603eb.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=SSL_get0_alpn_selected -pthread   -o CMakeFiles/cmTC_603eb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_603eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_603eb.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=SSL_get0_alpn_selected -pthread    CMakeFiles/cmTC_603eb.dir/CheckFunctionExists.c.o  -o cmTC_603eb -rdynamic /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lm 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function SSL_set_alpn_protos exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c4070/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c4070.dir/build.make CMakeFiles/cmTC_c4070.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c4070.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=SSL_set_alpn_protos -pthread   -o CMakeFiles/cmTC_c4070.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c4070
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4070.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=SSL_set_alpn_protos -pthread    CMakeFiles/cmTC_c4070.dir/CheckFunctionExists.c.o  -o cmTC_c4070 -rdynamic /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lm 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test LWS_HAVE_SSL_EXTRA_CHAIN_CERTS succeeded with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04e52/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04e52.dir/build.make CMakeFiles/cmTC_04e52.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04e52.dir/src.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DLWS_HAVE_SSL_EXTRA_CHAIN_CERTS -pthread   -o CMakeFiles/cmTC_04e52.dir/src.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_04e52
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04e52.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DLWS_HAVE_SSL_EXTRA_CHAIN_CERTS -pthread    CMakeFiles/cmTC_04e52.dir/src.c.o  -o cmTC_04e52 -rdynamic /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lm -ldl 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <openssl/ssl.h>
+int main(void) { STACK_OF(X509) *c = NULL; SSL_CTX *ctx = NULL; return (int)SSL_CTX_get_extra_chain_certs_only(ctx, &c); }
+
+Determining if the function EVP_aes_128_wrap exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ddec0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ddec0.dir/build.make CMakeFiles/cmTC_ddec0.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ddec0.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_128_wrap -pthread   -o CMakeFiles/cmTC_ddec0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ddec0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddec0.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_128_wrap -pthread    CMakeFiles/cmTC_ddec0.dir/CheckFunctionExists.c.o  -o cmTC_ddec0 -rdynamic /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lm -ldl 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function TLSv1_2_client_method exists passed with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_41db7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_41db7.dir/build.make CMakeFiles/cmTC_41db7.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41db7.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=TLSv1_2_client_method -pthread   -o CMakeFiles/cmTC_41db7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_41db7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41db7.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DCHECK_FUNCTION_EXISTS=TLSv1_2_client_method -pthread    CMakeFiles/cmTC_41db7.dir/CheckFunctionExists.c.o  -o cmTC_41db7 -rdynamic /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lm -ldl 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test LWS_HAVE_PIPE2 succeeded with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a5749/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a5749.dir/build.make CMakeFiles/cmTC_a5749.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5749.dir/src.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DLWS_HAVE_PIPE2 -pthread   -o CMakeFiles/cmTC_a5749.dir/src.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a5749
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5749.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DLWS_HAVE_PIPE2 -pthread    CMakeFiles/cmTC_a5749.dir/src.c.o  -o cmTC_a5749 -rdynamic /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lm -ldl 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#define _GNU_SOURCE
+#include <unistd.h>
+int main(void) {int fd[2];
+ return pipe2(fd, 0);
+}
+
+Performing C SOURCE FILE Test LWS_HAVE_TCP_USER_TIMEOUT succeeded with the following output:
+Change Dir: /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3854c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3854c.dir/build.make CMakeFiles/cmTC_3854c.dir/build
+make[1]: Entering directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3854c.dir/src.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DLWS_HAVE_TCP_USER_TIMEOUT -pthread   -o CMakeFiles/cmTC_3854c.dir/src.c.o   -c /home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3854c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3854c.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wsign-compare -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -pthread -DLWS_HAVE_TCP_USER_TIMEOUT -pthread    CMakeFiles/cmTC_3854c.dir/src.c.o  -o cmTC_3854c -rdynamic /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lm -ldl 
+make[1]: Leaving directory '/home/wsl/CLionProjects/libwebsockets/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <netinet/tcp.h>
+int main(void) { return TCP_USER_TIMEOUT; }
+
